@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Szn",
+    "slug": "szn",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.szn.app"
+    },
+    "android": {
+      "package": "com.szn.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Szn uses your location to show what's in season near you."
+        }
+      ],
+      "expo-asset"
+    ],
+    "scheme": "szn",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
